@@ -1,0 +1,27 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 25px;
+    margin-bottom:15px;
+}
+.screen-header__title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.screen-header__icon span{
+    margin-left:20px;
+}
+
+@keyframes spinoption {
+    from{
+        transform: rotateZ(360deg);
+    }
+    to{
+        transform: none;
+    }
+    
+}
+.screen-header__icon .fa-cog:hover{
+    animation:spinoption 2s linear infinite ;
+}

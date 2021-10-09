@@ -1,0 +1,17 @@
+.settings__setting{
+    padding: 22px 0 ;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__setting i{
+    font-size:18px;
+    padding-right:22px ;
+}
+.settings__setting-column:last-child{
+    color: gray;
+    
+
+}
